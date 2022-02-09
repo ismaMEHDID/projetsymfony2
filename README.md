@@ -1,11 +1,11 @@
-# Landkit_Symfony
+# TheSuspectdg
 
-Symfony project, with the bootstrap landkit theme integrated.
+Symfony project, photographer thesuspectdg.
 
 ## Installation
 
 ```bash
-cd Desktop && git clone https://github.com/C-PONS-DEV/Landkit_Symfony
+cd Desktop && git clone https://github.com/C-PONS-DEV/TheSuspectdg
 ```
 
 ## Usage
