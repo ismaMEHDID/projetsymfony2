@@ -1,0 +1,104 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Thomas DOUMENG - Contactez-moi
+{% endblock %}
+
+{% block body %}
+
+	<!-- FORM -->
+	<section class="pt-8 pt-md-11 pb-8 pb-md-14">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div
+					class="col-12 col-md-10 col-lg-8 text-center">
+
+					<!-- Heading -->
+					<h2 class="fw-bold">
+						Réservez directement votre séance !
+					</h2>
+
+					<!-- Text -->
+					<p class="fs-lg text-muted mb-7 mb-md-9">
+						Vous resevrais par mail vos identifiant et mot de passe pour accéder à votre espace personnel si vous n'avez pas de compte.
+					</p>
+
+				</div>
+			</div>
+			<!-- / .row -->
+			<div class="row justify-content-center">
+				<div
+					class="col-12 col-md-12 col-lg-10">
+
+					<!-- Form -->
+					<form>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div
+									class="form-group mb-5">
+
+									<!-- Label -->
+									<label class="form-label" for="contactName">
+										Nom, prénom
+									</label>
+
+									<!-- Input -->
+									<input class="form-control" id="contactName" type="text" placeholder="DOUMENG Thomas" require>
+
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<div
+									class="form-group mb-5">
+
+									<!-- Label -->
+									<label class="form-label" for="contactEmail">
+										Email
+									</label>
+
+									<!-- Input -->
+									<input class="form-control" id="contactEmail" type="email" placeholder="hello@thesuspectdg.com" require>
+
+								</div>
+							</div>
+						</div>
+
+
+						<!-- / .row -->
+						<div class="row">
+							<div class="col-12">
+								<div
+									class="form-group mb-7 mb-md-9">
+
+									<!-- Label -->
+									<label class="form-label" for="contactMessage">
+										Type de photos, information complémentaire sur votre séance.
+									</label>
+
+									<!-- Input -->
+									<textarea class="form-control" id="contactMessage" rows="5" placeholder="Mariage, dans un château. 300 Personnes." require></textarea>
+
+								</div>
+							</div>
+						</div>
+						<!-- / .row -->
+						<div class="row justify-content-center">
+							<div
+								class="col-auto">
+
+								<!-- Submit -->
+								<button type="submit" class="btn btn-primary lift">
+									Envoyez
+								</button>
+
+							</div>
+						</div>
+						<!-- / .row -->
+					</form>
+
+				</div>
+			</div>
+			<!-- / .row -->
+		</div>
+		<!-- / .container -->
+	</section>
+{% endblock %}
