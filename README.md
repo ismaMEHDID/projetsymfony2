@@ -1,7 +1,3 @@
-# TheSuspectdg
-
-Symfony project, photographer thesuspectdg.
-
 ## Installation
 
 ```bash
@@ -23,8 +19,8 @@ npm run build
 ```
 
 ```bash
-symfony server:start
+symfony serve -d
 ```
 
 ## License
-Proprietary license, any use without the written consent of Clément PONS (cponsdev@gmail.com) and subject to criminal condemnation# TheSuspectdg
+Proprietary license, any use without the written consent of Clément PONS (cponsdev@gmail.com) and subject to criminal condemnation
